@@ -18,7 +18,8 @@ with open('parameters.txt', 'r') as f:                                          
 vscode = "Code.exe" in (p.name() for p in psutil.process_iter())                 # this checks if VScode program is running on device
 notepadeditor = "notepad++.exe" in (p.name() for p in psutil.process_iter())     # this checks if notepad++ program is running on device
 pycharm = "pycharm64.exe" in (p.name() for p in psutil.process_iter())           # this checks if Pycharm program is running on device
-atom = "atom.exe" in (p.name() for p in psutil.process_iter())                   # this checks if Atom  program is running on device
+atom = "atom.exe" in (p.name() for p in psutil.process_iter())      
+atom = "winword.exe" in (p.name() for p in psutil.process_iter())                   # this checks if word  program is running on device
 sublime_editor = "sublime_text.exe" in (p.name() for p in psutil.process_iter()) # this checks if sublime text editor program is running on device
 list_of_editors = [vscode, pycharm, notepadeditor, atom]                         # this just adds all this programs inside list, and then gets return by boolean
 
