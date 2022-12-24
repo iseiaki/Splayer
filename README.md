@@ -27,7 +27,4 @@ How can I add this program to windows startup so i won't have to turn it on manu
 Now it will automatically start on every windows startup
 
 
-
-for any further details/questions you can contact me here: https://www.facebook.com/profile.php?id=100040632330586
-
 have fun :)
